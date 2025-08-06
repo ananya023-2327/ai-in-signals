@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Loading audio
-y, sr = librosa.load('voice-assistants.wav')
+y, sr = librosa.load('music1.wav')
 
 # Compute Mel Spectrogram
 S = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128, fmax=8000)
